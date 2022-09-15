@@ -1,11 +1,11 @@
 package = "rename"
 version = "dev-1"
 source = {
-    url = "git+https://github.com/mah0x211/rename.git",
+    url = "git+https://github.com/mah0x211/lua-rename.git",
 }
 description = {
     summary = "change the name of a file.",
-    homepage = "https://github.com/mah0x211/rename",
+    homepage = "https://github.com/mah0x211/lua-rename",
     license = "MIT/X11",
     maintainer = "Masatoshi Fukunaga",
 }
