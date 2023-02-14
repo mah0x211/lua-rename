@@ -82,7 +82,7 @@ local function rename(oldname, newname, parents)
     local ok, eno
     ok, err, eno = os_rename(oldname, newname)
     if not ok then
-        return new_errno(eno, nil, 'rename')
+        return false, new_errno(eno, err, 'rename')
     end
     return true
 end
